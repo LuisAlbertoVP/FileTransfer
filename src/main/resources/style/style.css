@@ -1,0 +1,40 @@
+/* 
+    Created on : Mar 25, 2019, 4:13:53 PM
+    Author     : luis
+*/
+
+.buttonApp{
+    -fx-background-color: #558eab;
+}
+
+.buttonApp:hover{
+    -fx-text-fill : #558eab;
+    -fx-background-color: white;
+}
+/*
+.tabPane .tab-header-area .tab-header-background {
+    -fx-background-color:  #a0a0a0;
+}
+*/
+
+.tabPane *.tab{
+    -fx-background-color:  #5fa574;
+    -fx-focus-color: #017624;
+}
+
+.tabPane *.tab-label{
+    -fx-text-fill: white;
+}
+
+.tabPane *.tab:hover{
+    -fx-background-color:  #017624;
+    -fx-focus-color:  #5fa574;
+}
+
+.tabPane *.tab:selected{
+    -fx-background-color:  #017624;
+}
+
+.labelSobre:hover{
+    -fx-text-fill: white;
+}
